@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5% 5%;
+    background-color: #7a1ae1;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #fff;
+    font-size: 35px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+input {
+    font-size: 20px;
+    color: #41183c;
+    width: 82%;
+    height: 50px;
+    border-radius: 10px;
+    
+    padding: 2px 12px;
+    margin: 2px;
+    outline: none;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 3px 3px;
+    font-weight: bold;
+    background-color: #fff;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #970484;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #41183c;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 12px;
+    margin: 5px 5px;
+}
+
+.conteudo {
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    background-color: #e70dbf;
+    border-radius: 10px;
+}
+
+.input-tarefa {
+    margin: 10px;
+}
+
+.tarefa {
+    width: 100%;
+    padding: 5px;
+}
+
